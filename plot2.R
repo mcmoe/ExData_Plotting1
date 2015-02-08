@@ -7,3 +7,6 @@ activePower = na.omit(activePower)
 data_date = as.POSIXct(paste(data$Date, data$Time), format = "%d/%m/%Y %H:%M:%S")
 
 plot(data_date, activePower, type = "l", xlab="", ylab="Global Active Power (killowatts)")
+
+dev.copy(png, file = "plot2.png")
+dev.off()
