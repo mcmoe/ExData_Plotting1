@@ -5,3 +5,6 @@ activePower = as.numeric(as.character(data$Global_active_power))
 activePower = na.omit(activePower)
 
 hist(activePower, col = "red", main = "Global Active Power", xlab = "Global Active Power (killowatts)")
+
+dev.copy(png, file = "plot1.png")
+dev.off()
