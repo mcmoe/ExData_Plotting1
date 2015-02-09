@@ -1,3 +1,6 @@
+## PLEASE INSTALL DPLYR LIBRARY TO RUN SCRIPTS!
+* you can do so by running this command once: install.packages("dplyr")
+
 ## Introduction
 
 This assignment uses data from
