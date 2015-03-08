@@ -27,7 +27,7 @@ legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty=
 
 
 reactivePower = na.omit(as.numeric(as.character(data$Global_reactive_power)))
-plot(data_date, reactivePower, type = "l", xlab="datetime")
+plot(data_date, reactivePower, type = "l", xlab="datetime", ylab="Global_reactive_power")
 
 
 dev.copy(png, file = "plot4.png")
